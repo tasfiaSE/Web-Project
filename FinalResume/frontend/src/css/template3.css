@@ -1,0 +1,50 @@
+.template3 {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  font-family: "Poppins", sans-serif;
+  background: #fffdf7;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.left {
+  background: #403c2f;
+  color: #f4e9c9;
+  padding: 25px;
+}
+
+.left h1 {
+  font-size: 1.8rem;
+}
+
+.left p {
+  margin: 5px 0;
+}
+
+.right {
+  padding: 25px;
+}
+
+.right h2 {
+  color: #403c2f;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.right p {
+  line-height: 1.5;
+  color: #333;
+}
+
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* circular image */
+  object-fit: cover;
+  border: 3px solid #4a90e2; /* optional border for style */
+  margin-bottom: 10px;
+  display: block;
+}

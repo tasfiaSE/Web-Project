@@ -1,0 +1,475 @@
+/*.view-resumes-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.view-resumes-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.resume-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.resume-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.resume-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.resume-info h3 {
+  margin: 0 0 5px 0;
+  color: #1a73e8;
+}
+
+.resume-info .title {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.resume-info .email {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.download-btn,
+.delete-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.download-btn {
+  background-color: #1a73e8;
+  color: white;
+}
+
+.download-btn:hover {
+  background-color: #155ab6;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+.no-resumes {
+  text-align: center;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+*/
+
+/* adding new style
+.view-container {
+  padding: 40px 60px;
+  background-color: #f7f8fa;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.page-title {
+  text-align: center;
+  color: #1f2937;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.no-resume-text {
+  text-align: center;
+  color: #6b7280;
+  font-size: 1.1rem;
+  margin-top: 60px;
+}
+
+.resume-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.resume-card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resume-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+.resume-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.resume-avatar {
+  background-color: #2563eb;
+  color: white;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.resume-email {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.resume-body {
+  margin-bottom: 18px;
+  font-size: 0.95rem;
+  color: #374151;
+  line-height: 1.4;
+}
+
+.resume-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.btn {
+  flex: 1;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.view-btn {
+  background-color: #2563eb;
+  color: white;
+}
+
+.download-btn {
+  background-color: #16a34a;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #dc2626;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+*/
+/* --------adding 
+.view-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+/*
+.resume-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}
+
+.resume-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border: 5px solid #7a3cff; 
+  transition: transform 0.3s ease;
+  width: 260px;
+}
+
+.resume-card:hover {
+  transform: translateY(-5px);
+}
+
+.resume-thumbnail {
+  width: 100%;
+  height: 340px;
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: top center;
+}
+
+.resume-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.resume-info h3 {
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
+
+.resume-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+.resume-buttons .btn {
+  background-color: #7a3cff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: background 0.3s;
+}
+
+.resume-buttons .btn:hover {
+  background-color: #5e2ccc;
+}
+
+.no-resume-text {
+  margin-top: 30px;
+  font-size: 1.1rem;
+  color: #666;
+}
+*/
+
+
+/* adding new part
+.view-container {
+  padding: 30px;
+  background-color: #f5f6fa;
+  min-height: 100vh;
+}
+
+.page-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.resume-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 25px;
+  justify-content: center;
+}
+
+.resume-preview-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.resume-preview-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.resume-preview-content {
+  height: 420px;
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+}
+
+.resume-preview {
+  zoom: 0.45; /* shrink template preview size 
+  transform-origin: top left;
+  width: 220%;
+  height: auto;
+}
+
+.resume-preview-actions {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  background: #fafafa;
+}
+
+.btn {
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.view-btn {
+  background-color: #1a73e8;
+  color: white;
+}
+
+.download-btn {
+  background-color: #34a853;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #ea4335;
+  color: white;
+}
+
+*/
+.view-container {
+  padding: 30px;
+  text-align: center;
+  background-color: #f8f9fb;
+  min-height: 100vh;
+}
+
+.page-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.resume-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  gap: 30px;
+  justify-content: center;
+}
+
+.resume-preview-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.resume-preview-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.resume-preview-content {
+  height: 400px;
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+  background: #fafafa;
+}
+
+.resume-preview {
+  transform: scale(0.5);
+  transform-origin: top center;
+  pointer-events: none;
+}
+
+/* === BUTTON STYLES === */
+
+.resume-preview-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 15px;
+  background: #fff;
+  border-top: 1px solid #eee;
+}
+
+.btn {
+  flex: 1;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+/* View Button */
+.view-btn {
+  background: #1976d2;
+  color: #fff;
+}
+.view-btn:hover {
+  background: #1259a5;
+}
+
+/* Download Button */
+.download-btn {
+  background: #2e7d32;
+  color: #fff;
+}
+.download-btn:hover {
+  background: #1b5e20;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: #d32f2f;
+  color: #fff;
+}
+.delete-btn:hover {
+  background: #b71c1c;
+}
+
+/* Empty message */
+.no-resume-text {
+  color: #777;
+  font-size: 18px;
+  margin-top: 50px;
+}

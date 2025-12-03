@@ -1,0 +1,415 @@
+
+/* Container 
+.create-resume-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.create-resume-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #333;
+}
+
+/* Form 
+.create-resume-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Labels 
+.create-resume-form label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/* Inputs and Textarea 
+.create-resume-form input,
+.create-resume-form textarea {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.create-resume-form input:focus,
+.create-resume-form textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Buttons 
+.save-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+.save-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive 
+@media (max-width: 600px) {
+  .create-resume-container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .create-resume-form input,
+  .create-resume-form textarea {
+    font-size: 14px;
+  }
+
+  .save-btn {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
+*/
+/* add korram 
+/* General Page Background 
+.edit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: linear-gradient(135deg, #e3f2fd, #f8f9fa);
+  padding: 40px 15px;
+}
+
+/* Card Container 
+.edit-card {
+  background: #ffffff;
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  animation: fadeIn 0.6s ease;
+}
+
+/* Title 
+.edit-title {
+  text-align: center;
+  color: #1e3a8a;
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+/* Form Layout
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Labels 
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+/* Inputs 
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 5px rgba(37, 99, 235, 0.3);
+}
+
+
+.save-btn {
+  background: #2563eb;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.save-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(29, 78, 216, 0.3);
+}
+
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 50px;
+  color: #555;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+*/
+
+/*  adding more design
+Layout 
+.resume-editor {
+  max-width: 850px;
+  margin: 50px auto;
+  padding: 30px 25px;
+  background-color: #f9fafb;
+  border-radius: 12px;
+}
+
+/* Header 
+.editor-header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.editor-header h2 {
+  font-size: 28px;
+  color: #1e3a8a;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.editor-header p {
+  color: #6b7280;
+  font-size: 15px;
+}
+
+/* Section Cards
+.section-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 25px 30px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.3s ease;
+}
+
+.section-card:hover {
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+.section-card h3 {
+  font-size: 20px;
+  color: #111827;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 8px;
+}
+
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group.full {
+  grid-column: 1 / -1;
+}
+
+
+.form-group input,
+textarea {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 15px;
+  transition: all 0.2s ease;
+  background-color: #f9fafb;
+}
+
+.form-group input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+  background-color: #fff;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+label {
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 5px;
+}
+
+
+.form-footer {
+  text-align: right;
+  margin-top: 15px;
+}
+
+.save-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.save-btn:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(29, 78, 216, 0.3);
+}
+
+
+@media (max-width: 600px) {
+  .resume-editor {
+    padding: 20px;
+  }
+  .section-card {
+    padding: 20px;
+  }
+}
+*/
+.edit-resume-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+  background: #f8f9ff;
+  min-height: 100vh;
+}
+
+.edit-resume-card {
+  background: white;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+}
+
+.edit-title {
+  text-align: center;
+  font-size: 28px;
+  color: #1e2a78;
+  margin-bottom: 25px;
+}
+
+.edit-form label {
+  font-weight: 600;
+  display: block;
+  margin-top: 12px;
+  color: #333;
+}
+
+.edit-form input,
+.edit-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #fafbff;
+}
+
+.edit-form textarea {
+  resize: vertical;
+}
+
+.form-section {
+  margin-top: 30px;
+}
+
+.form-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #1e2a78;
+}
+
+.card-box {
+  background: #f9fbff;
+  border: 1px solid #d6e0ff;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  box-shadow: 0 2px 5px rgba(50, 50, 93, 0.05);
+}
+
+.add-btn {
+  background: #1e2a78;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 12px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-btn:hover {
+  background: #2d3eb5;
+}
+
+.save-btn {
+  display: block;
+  width: 30%;
+  margin-top: 30px;
+  padding: 12px;
+  background: #1e65b1;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.save-btn:hover {
+  background: #085ddd;
+}
+

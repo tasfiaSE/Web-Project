@@ -1,0 +1,86 @@
+.resume-builder {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  background: #f4f6f8;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.resume-form {
+  flex: 1;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.resume-form h2 {
+  margin-bottom: 20px;
+  color: #2563eb;
+}
+
+.resume-form label {
+  font-weight: 600;
+  display: block;
+  margin-top: 15px;
+}
+
+.resume-form input,
+.resume-form textarea {
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.resume-form textarea {
+  resize: none;
+  height: 80px;
+}
+
+.resume-form button {
+  margin-top: 25px;
+  width: 100%;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.resume-form button:hover {
+  background-color: #1e40af;
+}
+
+.resume-preview {
+  flex: 1;
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.resume-preview h2 {
+  color: #1e293b;
+  margin-bottom: 5px;
+}
+
+.resume-preview h3 {
+  margin-top: 20px;
+  color: #2563eb;
+}
+
+.resume-preview ul {
+  padding-left: 20px;
+  list-style-type: square;
+}
+
+.resume-preview section {
+  margin-bottom: 10px;
+}
